@@ -113,3 +113,4 @@ button_divide.grid(row=4, column=3)
 button_equal.grid(row=4, column=1, columnspan=2)
 button_clear.grid(row=4, column=0, columnspan=1)
 
+root.mainloop()
