@@ -105,12 +105,12 @@ button_7.grid(row=1, column=0)
 button_8.grid(row=1, column=1)
 button_9.grid(row=1, column=2)
 button_0.grid(row=4, column=0)
-
 button_add.grid(row=1, column=3)
 button_subtract.grid(row=2, column=3)
 button_multiply.grid(row=3, column=3)
 button_divide.grid(row=4, column=3)
-button_equal.grid(row=4, column=1, columnspan=2)
-button_clear.grid(row=4, column=0, columnspan=1)
+button_equal.grid(row=5, column=0, columnspan=2)
+button_clear.grid(row=5, column=2, columnspan=2)
+
 
 root.mainloop()
