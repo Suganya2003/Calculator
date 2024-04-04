@@ -1,3 +1,13 @@
+import tkinter as tk
+
+# Create the main window
+root = tk.Tk()
+root.title("Calculator")
+
+# Create the display
+display = tk.Entry(root, width=25, font=('Arial', 16))
+display.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
+
 def button_click(number):
     current = display.get()
     display.delete(0, tk.END)
